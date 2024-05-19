@@ -1,1 +1,7 @@
 streamlit==1.34.0
+torch==2.2.1 -f https://download.pytorch.org/whl/rocm5.7
+torchvision==0.17.1 -f https://download.pytorch.org/whl/rocm5.7
+torchaudio==2.2.1 -f https://download.pytorch.org/whl/rocm5.7
+ultralytics
+opencv-python-headless
+matplotlib
