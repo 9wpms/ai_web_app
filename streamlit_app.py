@@ -65,6 +65,7 @@ def webpage():
     st.caption('(เว็บไซต์สำหรับตรวจสอบป้ายต่าง ๆ แบบอย่างง่าย ผ่านการอัปโหลดรูปภาพ)')
     
     with st.sidebar.container():
+        st.info("Click the 'Process' button if you make a selection.")
         selected_option = st.sidebar.radio(
             "Options for showing examples: 📝",
             ['Yes', 'No'], 
